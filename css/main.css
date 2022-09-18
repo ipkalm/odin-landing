@@ -25,6 +25,7 @@ button {
     border-radius: 4px;
     padding: 6px 24px;
     font-weight: 700;
+    color: white;
 }
 
 .container {
@@ -40,16 +41,21 @@ button {
     background-color: #e5e7eb;
 }
 
+.blue-bg {
+    background-color: #3882f6;
+}
+
 .m-w800 {
     max-width: 980px;
     padding: 0 16px;
 }
 
-.hero,
-.info,
-.quote {
-    padding-top: 52px;
-    padding-bottom: 82px;
+.flex-padding {
+    padding: 52px 0 82px;
+}
+
+.flex-margin {
+    margin: 52px 0 82px;
 }
 
 .header {
@@ -62,7 +68,6 @@ button {
     flex: 1 1 auto;
 }
 
-button,
 .col-hero p,
 .links {
     font-size: 18px;
@@ -167,4 +172,27 @@ button,
     font-size: 24px;
     text-align: right;
     padding-right: 36px;
+}
+
+.signup {
+    display: flex;
+    border-radius: 8px;
+    border: none;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.signup button {
+    border: 1px solid white;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 1.1rem;
 }
