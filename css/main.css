@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,300&display=swap');
 
 body {
     margin: 0;
@@ -118,6 +118,7 @@ button {
     font-weight: 800;
     color: #1f2937;
     margin: 0;
+    text-align: center;
 }
 
 .info {
@@ -131,6 +132,7 @@ button {
 .cards {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex: 0 0 auto;
     justify-content: center;
     column-gap: 48px;
@@ -142,3 +144,4 @@ button {
     flex-direction: column;
     text-align: center;
 }
+
