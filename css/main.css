@@ -19,8 +19,7 @@ body {
 }
 
 .m-w800 {
-    width: 800px;
-    max-width: 1080px;
+    max-width: 980px;
     padding: 0 16px;
 }
 
@@ -53,8 +52,8 @@ button,
 }
 
 .hero {
-    padding-top: 32px;
-    padding-bottom: 52px;
+    padding-top: 52px;
+    padding-bottom: 82px;
     display: flex;
     align-items: center;
     flex: 1 1 auto;
@@ -68,6 +67,8 @@ button,
     align-items: flex-start;
     row-gap: 8px;
     max-height: 100%;
+    justify-content: center;
+
 }
 
 .col-hero h1 {
@@ -86,8 +87,9 @@ button,
 
 
 .h-img {
-    height: 170px;
-    width: 370px;
+    width: 425px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 button {
